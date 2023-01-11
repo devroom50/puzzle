@@ -1,0 +1,24 @@
+* {padding:0; margin:0;}
+
+html,body {height: 100%;}
+body {background:#212121;overflow: hidden;}
+
+#timer {display: flex;font-size: 40px;color: #fff;position: absolute;top: 5px;left: 20px;}
+#timer>span {padding: 5px;}
+
+#gallery_wrapper {position: absolute;left: 54vw;top: 20px;width: 37vw;height: 37vw;}
+#gallery_wrapper>div {width: 12vw;height: 12vw;border: 1px solid #000;float: left;opacity: 0.6;}
+#gallery_wrapper>div>img {width: 100%;}
+
+#draggable_wrapper {width:50vw; height: 100%;}
+.draggable {width: 12vw;height: 12vw;z-index: 3;position: absolute;}
+.draggable>img {width: 100%;}
+
+#start {position: fixed;width: 100%;height: 100%;background-color: rgba(0,0,0,0.5);top: 0;z-index: 3;}
+#record {font-size: 36px;color: #fff;text-align: center;margin-top: 10%;}
+#start>button {font-size: 36px;padding: 5px 20px 10px;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+
+#selectGame {position: fixed;width: 100%;top: 0;z-index: 3;background-color: #fff;padding: 0 0 30px;}
+#selectGame>h2 {text-align: center;padding: 20px 0;}
+#selectGame>div {width: 20%;float: left;}
+#selectGame>div>img {width: 100%;}
